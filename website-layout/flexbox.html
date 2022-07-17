@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Flexbox</title>
+    <style>
+        .container{
+            border: 2px dotted purple;
+            display: flex;
+            height: 300px;
+            align-items: stretch;
+            /* flex-direction: row-reverse;
+            flex-direction: column; */
+            /* flex-wrap: wrap; */
+
+            /* Justify-content use for horizontal align */
+            /* justify-content: flex-end;
+            justify-content: space-between;
+            justify-content: space-evenly;
+            justify-content: space-around;
+            justify-content: center; */
+            
+
+            /* Align-items use for vertical align */
+            /* align-items: flex-end;
+            align-items: center; */
+
+        }
+        .box{
+            font-size: 3ex;
+            font-weight: 700;
+            width: 100px;
+            /* height: 100px; */
+            border: 2px dashed royalblue;
+        }
+        #box-2{
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div id="box-2" class="box">box-2</div>
+        <!-- <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div> -->
+    </div>
+</body>
+</html>
